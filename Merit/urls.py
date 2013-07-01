@@ -16,7 +16,8 @@ urlpatterns = patterns('',
 
     # Uncomment the next line to enable the admin:
      url(r'^admin/', include(admin.site.urls) ),
-     url(r'^','Merit.views.home'),
+     url(r'^$','Merit.views.home'),
+     url(r'^signin/','Merit.views.sign_in'),
 )
 
 
