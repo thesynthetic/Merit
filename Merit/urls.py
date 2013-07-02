@@ -18,6 +18,7 @@ urlpatterns = patterns('',
      url(r'^admin/', include(admin.site.urls) ),
      url(r'^$','Merit.views.home'),
      url(r'^signin/','Merit.views.sign_in'),
+     url(r'^dashboard/','Merit.views.dashboard'),
 )
 
 
